@@ -10,7 +10,7 @@
     justify-content: center;
     margin: 0 auto;
     height: 100%;
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 4rem;
+    font-family: 'ZenMaruGothic';
   }
 </style>
