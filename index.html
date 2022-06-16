@@ -2,12 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Svelte + Vite App</title>
+
+    <title>Application Embed Checker</title>
+
+    <meta property="og:url" content="http://embed-checker.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Embed Checker!!" />
+    <meta property="og:description" content="Web ApplicationがEmbedされた時の挙動を確認するためのツールです." />
+    <meta property="og:site_name" content="Application Embed Checker" />
+
+    <link rel='stylesheet' href='/global.css' />
+    <link rel="icon" href="/favicon.ico" />
   </head>
+
   <body>
     <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
